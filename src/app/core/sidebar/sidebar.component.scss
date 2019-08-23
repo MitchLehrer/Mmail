@@ -1,0 +1,20 @@
+@import "src/assets/scss/argon-dashboard.scss";
+
+#sidebar {
+  .logo-wrapper {
+    height: 4em;
+    line-height: 3.5em;
+    padding: 0.25rem 30px;
+  }
+
+  #sidebar-menu {
+    .nav-link {
+      padding: 0.65rem 27px;
+      border-left: 3px solid transparent;
+
+      &.active{
+          border-color: $primary;
+      }
+    }
+  }
+}

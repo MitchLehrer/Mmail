@@ -1,0 +1,18 @@
+#header {
+  .nav-link {
+    line-height: 3.5rem;
+  }
+
+  .user-icon {
+    img {
+      max-width: 25px;
+      width: 50px;
+      border-radius: 50%;
+      display: inline-block;
+      opacity: 0.92;
+    }
+  }
+
+  &:hover {
+  }
+}
